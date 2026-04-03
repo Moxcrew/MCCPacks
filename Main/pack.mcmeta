@@ -1,1 +1,1 @@
-{"pack":{"pack_format":46,"description":"QCC Global Resource Pack"},"overlays":{"entries":[]},"sodium":{"ignored_shaders":["rendertype_cutout.json","rendertype_cutout_mipped.json","rendertype_solid.json","rendertype_translucent.json","rendertype_tripwire.json","light.glsl","fog.glsl"]}}
+{"pack":{"pack_format":46,"description":"SelenoMCC Global Resource Pack"},"overlays":{"entries":[]},"sodium":{"ignored_shaders":["rendertype_cutout.json","rendertype_cutout_mipped.json","rendertype_solid.json","rendertype_translucent.json","rendertype_tripwire.json","light.glsl","fog.glsl"]}}
