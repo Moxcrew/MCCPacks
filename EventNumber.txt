@@ -7,8 +7,8 @@ Packs:
     MAIN_HASH: a1872e07bd111c1fc50e8147d9f566187dadbbc4
 
   Shared:
-    SHARED: 
-    SHARED_HASH:
+    SHARED: 1
+    SHARED_HASH: ebcb056efb9ab997d8b6f9b7de48ccc5f5f36edb
 
   MUSIC:
     MUSIC: 
