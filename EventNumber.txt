@@ -10,6 +10,6 @@ Packs:
     SHARED: 1
     SHARED_HASH: ebcb056efb9ab997d8b6f9b7de48ccc5f5f36edb
 
-    MUSIC: 1
-    MUSIC: 1
-    MUSIC_HASH: 067e20bd626afc068d2f9f7b0ed6b26c571e40d8
+    MUSIC: 
+    MUSIC: 
+    MUSIC_HASH: 595985116df702aa70d8a6cac5fe7f75e9bb952b
