@@ -1,0 +1,1590 @@
+{
+  "event.sectortick": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/sectortick.15",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.8",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.9",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.5",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.12",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.4",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.7",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.16",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.14",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.11",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.6",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.13",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.3",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/sectortick.10",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.gameselected": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/gameselected",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.click": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/click.5",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/click.2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/click.6",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/click.3",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/click.1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/click.4",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/click.7",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.vacuum": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/vacuum",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.dunked": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/dunked",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.unowhoop": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/unowhoop",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.gamereveal": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/gamereveal",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.newgames_reveal": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/newgames_reveal",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.multiplier_increase": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/multiplier_increase",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_trident_zone": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_trident_zone",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_remove_item": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_remove_item",
+        "volume": 0.4,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_dolphin_zone": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_dolphin_zone",
+        "volume": 0.4,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_checkpoint_pass": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_checkpoint_pass",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_elytra_zone": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_elytra_zone",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_jump_big_alert": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_jump_big_alert",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_slow_field": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_slow_field",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_course_record": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_course_record",
+        "volume": 0.9,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_aqua_tube": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_aqua_tube.1",
+        "volume": 0.7,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_aqua_tube.3",
+        "volume": 0.7,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_aqua_tube.2",
+        "volume": 0.7,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_mega_launcher": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_mega_launcher.2",
+        "volume": 0.9,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_mega_launcher.3",
+        "volume": 0.9,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_mega_launcher.1",
+        "volume": 0.9,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_turtle_bonk": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_turtle_bonk.1",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_turtle_bonk.3",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_turtle_bonk.2",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_jump_big": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_jump_big.3",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_jump_big.2",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_jump_big.1",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_aqua_jet": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_aqua_jet.3",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_aqua_jet.1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_aqua_jet.2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_wind_gust": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_wind_gust",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_wall_slide": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_wall_slide.1",
+        "volume": 0.7,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_wall_slide.3",
+        "volume": 0.7,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_wall_slide.2",
+        "volume": 0.7,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_wall_slide.4",
+        "volume": 0.7,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_speed_boost": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_speed_boost.3",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_speed_boost.2",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/ar_speed_boost.1",
+        "volume": 0.8,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.ar_wind_loop": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/ar_wind_loop",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.arrow_impact": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/arrow_impact.4",
+        "volume": 2,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/arrow_impact.1",
+        "volume": 2,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/arrow_impact.2",
+        "volume": 2,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/arrow_impact.3",
+        "volume": 2,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.arena_shrink": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/arena_shrink",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.elimination_pop": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/elimination_pop",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.winsound": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/winsound",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "finale.arrow_impact5": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:finale/arrow_impact5",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.alert1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/alert1",
+        "volume": 3,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.alert2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/alert2",
+        "volume": 3,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.updraft": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/updraft",
+        "volume": 2,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.hunter_unlock": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/hunter_unlock",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.hunter_activate_mono": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/hunter_activate_mono",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.hunter_deactivate_stereo": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/hunter_deactivate_stereo",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.hunter_activate_stereo": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/hunter_activate_stereo",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.hunterkill": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/hunterkill",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.hunter_deactivate_mono": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/hunter_deactivate_mono",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.parkour_finish": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/parkour_finish",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.teleport_scroll": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/teleport_scroll",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.target_hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/target_hit.1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/target_hit.3",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/target_hit.2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_lamps": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_lamps",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_golf": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_golf",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.home_stretch": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/home_stretch",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.finish": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/finish",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.golf_knockback": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/golf_knockback.2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/golf_knockback.3",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/golf_knockback.1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.key_loop": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/key_loop.2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/key_loop.4",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/key_loop.5",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/key_loop.3",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      },
+      {
+        "name": "minecraft:event/key_loop.1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_cake": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_cake",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_key": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_key",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_target": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_target",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_complete_enemy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_complete_enemy",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.food_correct": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/food_correct",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_cook": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_cook",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.playersrequired": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/playersrequired",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.blastoff": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/blastoff",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_beast": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_beast",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_title": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_title",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.teammate_finishline": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/teammate_finishline",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_complete": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_complete",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.cake_eat": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/cake_eat",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.gate_open_short": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/gate_open_short",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_copy": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_copy",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.blockpush": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/blockpush",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_crossing": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_crossing",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.playersrequired_complete": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/playersrequired_complete",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.blockpush_solve": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/blockpush_solve",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.key_unlock": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/key_unlock",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.key_pickup": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/key_pickup",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "event.room_clean": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:event/room_clean",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "grid_runners.room_dtb": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:grid_runners/room_dtb",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "grid_runners.button_push2": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:grid_runners/button_push2",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "grid_runners.button_push1": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:grid_runners/button_push1",
+        "volume": 1,
+        "pitch": 1,
+        "weight": 1,
+        "stream": false,
+        "attenuation_distance": 16,
+        "preload": false,
+        "channels": 2
+      }
+    ]
+  },
+  "block.piston.extend": {
+    "replace": true,
+    "subtitle": ""
+  },
+  "block.piston.contract": {
+    "replace": true,
+    "subtitle": ""
+  }
+}
