@@ -81,7 +81,7 @@ jobs:
 
       - name: Update MUSIC version and hash in root file
         run: |
-          git pull origin music
+          git pull origin main
           SHA1=$(cat SELENOMCC-music.hash)
           NEXT_VERSION=${{ needs.build.outputs.NEXT_VERSION }}
           EVENT_NUM=${{ needs.build.outputs.EVENT_NUM }}
@@ -91,4 +91,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add EventNumber.txt
           git commit -m "Increment MUSIC version to $NEXT_VERSION and update hash"
-          git push origin music
+          git push origin main
