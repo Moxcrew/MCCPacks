@@ -3,8 +3,8 @@ eventNumber: 1
 Packs:
 
   Main:
-    MAIN: 1
-    MAIN_HASH: a1872e07bd111c1fc50e8147d9f566187dadbbc4
+    MAIN: 2
+    MAIN_HASH: 79f421304bba74793b6b51144b1e2baf24da85aa
 
   Shared:
     SHARED: 2
