@@ -1,0 +1,94 @@
+name: SHARED Pack
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: shared-pack
+  cancel-in-progress: true
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build SHARED Pack
+    runs-on: ubuntu-latest
+    outputs:
+      NEXT_VERSION: ${{ steps.get_version.outputs.next_version }}
+      EVENT_NUM: ${{ steps.get_version.outputs.event_num }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Precompute event number and SHARED version
+        id: get_version
+        run: |
+          EVENT_NUM=$(grep 'eventNumber:' EventNumber.txt | cut -d':' -f2 | tr -d ' ')
+          SHARED_VERSION=$(grep 'SHARED:' EventNumber.txt | awk '{print $2}')
+          NEXT_VERSION=$((SHARED_VERSION + 1))
+          echo "NEXT_VERSION=$NEXT_VERSION" >> $GITHUB_OUTPUT
+          echo "EVENT_NUM=$EVENT_NUM" >> $GITHUB_OUTPUT
+
+      - name: Generate README.txt
+        run: |
+          echo "Hi, this pack uses FAN-MADE assets and stolen ones from MCCI and MCC." > Shared/README.txt
+          echo "" >> Shared/README.txt
+          echo "We do not claim ownership of any of the assets used, taking assets from this pack is allowed however do not claim it is your own." >> Shared/README.txt
+          echo "" >> Shared/README.txt
+          echo "This pack is for SelenoMCC  as version #${{ steps.get_version.outputs.NEXT_VERSION }} of the SHARED Pack" >> Shared/README.txt
+
+      - name: Create SHARED ZIP
+        run: |
+          rm -f SELENOMCC-shared.zip
+          cd Shared
+          zip -r ../SELENOMCC-shared.zip . -x ".git/*" ".github/*"
+          cd ..
+
+      - name: Compute SHA-1 hash and save as artifact
+        run: |
+          SHA1=$(sha1sum SELENOMCC-shared.zip | awk '{ print $1 }')
+          echo "$SHA1" > SELENOMCC-shared.hash
+
+      - name: Upload SHARED ZIP to release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: sharedLatest
+          files: SELENOMCC-shared.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload hash artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shared-hash
+          path: SELENOMCC-shared.hash
+
+  update-version-and-hash:
+    name: Update SHARED Version and Hash
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download hash artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: shared-hash
+          path: .
+
+      - name: Update SHARED version and hash in root file
+        run: |
+          git pull origin shared
+          SHA1=$(cat SELENOMCC-shared.hash)
+          NEXT_VERSION=${{ needs.build.outputs.NEXT_VERSION }}
+          EVENT_NUM=${{ needs.build.outputs.EVENT_NUM }}
+          sed -i "s/^[[:space:]]*SHARED:.*/    SHARED: $NEXT_VERSION/" EventNumber.txt
+          sed -i "s/^[[:space:]]*SHARED_HASH:.*/    SHARED_HASH: $SHA1/" EventNumber.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add EventNumber.txt
+          git commit -m "Increment SHARED version to $NEXT_VERSION and update hash"
+          git push origin shared

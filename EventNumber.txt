@@ -1,0 +1,15 @@
+eventNumber: 1
+
+Packs:
+
+  Main:
+    MAIN: 
+    MAIN_HASH: 02ff1301d6a6c908783be15a8ef319df194e54f7
+
+  Shared:
+    SHARED: 
+    SHARED_HASH:
+
+  MUSIC:
+    MUSIC: 
+    MUSIC_HASH:

@@ -1,0 +1,94 @@
+name: MUSIC Pack
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: music-pack
+  cancel-in-progress: true
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build MUSIC Pack
+    runs-on: ubuntu-latest
+    outputs:
+      NEXT_VERSION: ${{ steps.get_version.outputs.next_version }}
+      EVENT_NUM: ${{ steps.get_version.outputs.event_num }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Precompute event number and MUSIC version
+        id: get_version
+        run: |
+          EVENT_NUM=$(grep 'eventNumber:' EventNumber.txt | cut -d':' -f2 | tr -d ' ')
+          MUSIC_VERSION=$(grep 'MUSIC:' EventNumber.txt | awk '{print $2}')
+          NEXT_VERSION=$((MUSIC_VERSION + 1))
+          echo "NEXT_VERSION=$NEXT_VERSION" >> $GITHUB_OUTPUT
+          echo "EVENT_NUM=$EVENT_NUM" >> $GITHUB_OUTPUT
+
+      - name: Generate README.txt
+        run: |
+          echo "Hi, this pack uses FAN-MADE assets and stolen ones from MCCI and MCC." > Music/README.txt
+          echo "" >> Music/README.txt
+          echo "We do not claim ownership of any of the assets used, taking assets from this pack is allowed however do not claim it is your own." >> Music/README.txt
+          echo "" >> Music/README.txt
+          echo "This pack is for SelenoMCC  as version #${{ steps.get_version.outputs.NEXT_VERSION }} of the MUSIC Pack" >> Music/README.txt
+
+      - name: Create MUSIC ZIP
+        run: |
+          rm -f SELENOMCC-music.zip
+          cd Music
+          zip -r ../SELENOMCC-music.zip . -x ".git/*" ".github/*"
+          cd ..
+
+      - name: Compute SHA-1 hash and save as artifact
+        run: |
+          SHA1=$(sha1sum SELENOMCC-music.zip | awk '{ print $1 }')
+          echo "$SHA1" > SELENOMCC-music.hash
+
+      - name: Upload MUSIC ZIP to release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: musicLatest
+          files: SELENOMCC-music.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload hash artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: music-hash
+          path: SELENOMCC-music.hash
+
+  update-version-and-hash:
+    name: Update MUSIC Version and Hash
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download hash artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: music-hash
+          path: .
+
+      - name: Update MUSIC version and hash in root file
+        run: |
+          git pull origin music
+          SHA1=$(cat SELENOMCC-music.hash)
+          NEXT_VERSION=${{ needs.build.outputs.NEXT_VERSION }}
+          EVENT_NUM=${{ needs.build.outputs.EVENT_NUM }}
+          sed -i "s/^[[:space:]]*MUSIC:.*/    MUSIC: $NEXT_VERSION/" EventNumber.txt
+          sed -i "s/^[[:space:]]*MUSIC_HASH:.*/    MUSIC_HASH: $SHA1/" EventNumber.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add EventNumber.txt
+          git commit -m "Increment MUSIC version to $NEXT_VERSION and update hash"
+          git push origin music
